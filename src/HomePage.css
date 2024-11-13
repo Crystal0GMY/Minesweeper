@@ -1,0 +1,35 @@
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.rules-link, .difficulty-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.rules-link {
+    background-color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.difficulty-link.easy {
+    background-color: #2196F3;
+}
+
+.difficulty-link.medium {
+    background-color: #FF9800;
+}
+
+.difficulty-link.hard {
+    background-color: #F44336;
+}
